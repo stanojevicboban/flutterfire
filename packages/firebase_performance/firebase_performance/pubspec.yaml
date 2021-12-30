@@ -30,7 +30,7 @@ dependencies:
   firebase_performance_web:
     git:
       url: git@github.com:stanojevicboban/flutterfire.git
-      path: packages/firebase_performance_web/firebase_performance_web
+      path: packages/firebase_performance/firebase_performance_web
   flutter:
     sdk: flutter
 
