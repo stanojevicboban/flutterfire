@@ -17,11 +17,11 @@ dependencies:
   firebase_analytics_platform_interface:
     git:
       url: git@github.com:stanojevicboban/flutterfire.git
-      path: packages/firebase_analytics/firebase_analytics
+      path: packages/firebase_analytics/firebase_analytics_platform_interface
   firebase_analytics_web:
     git:
       url: git@github.com:stanojevicboban/flutterfire.git
-      path: packages/firebase_analytics/firebase_analytics
+      path: packages/firebase_analytics/firebase_analytics_web
   firebase_core:
     git:
       url: git@github.com:stanojevicboban/flutterfire.git
