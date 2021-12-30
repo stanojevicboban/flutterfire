@@ -14,10 +14,22 @@ environment:
   flutter: ">=1.12.13+hotfix.5"
 
 dependencies:
-  firebase_core: ^1.10.0
-  firebase_core_platform_interface: ^4.2.3
-  firebase_remote_config_platform_interface: ^1.0.3
-  firebase_remote_config_web: ^1.0.3
+  firebase_core:
+    git:
+      url: git@github.com:stanojevicboban/flutterfire.git
+      path: packages/firebase_core/firebase_core
+  firebase_core_platform_interface:
+    git:
+      url: git@github.com:stanojevicboban/flutterfire.git
+      path: packages/firebase_core/firebase_core_platform_interface
+  firebase_remote_config_platform_interface:
+    git:
+      url: git@github.com:stanojevicboban/flutterfire.git
+      path: packages/firebase_remote_config/firebase_remote_config_platform_interface
+  firebase_remote_config_web:
+    git:
+      url: git@github.com:stanojevicboban/flutterfire.git
+      path: packages/firebase_remote_config/firebase_remote_config_web
   flutter:
     sdk: flutter
 

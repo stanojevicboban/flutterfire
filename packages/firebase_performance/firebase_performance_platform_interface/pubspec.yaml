@@ -8,12 +8,18 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  firebase_core: ^1.10.0
+  firebase_core:
+    git:
+      url: git@github.com:stanojevicboban/flutterfire.git
+      path: packages/firebase_core/firebase_core
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.1
 
 dev_dependencies:
-  firebase_core_platform_interface: ^4.2.3
+  firebase_core_platform_interface:
+    git:
+      url: git@github.com:stanojevicboban/flutterfire.git
+      path: packages/firebase_core/firebase_core_platform_interface
   flutter_test:
     sdk: flutter
