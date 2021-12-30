@@ -14,7 +14,7 @@ dependencies:
       path: packages/firebase_core/firebase_core
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.1
+  plugin_platform_interface: ^1.0.1
 
 dev_dependencies:
   firebase_core_platform_interface:
