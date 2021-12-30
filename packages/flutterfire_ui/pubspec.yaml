@@ -13,7 +13,7 @@ environment:
 
 dependencies:
   cloud_firestore: ^3.1.5
-  collection: ^1.15.0-nullsafety-5
+  collection: ^1.15.0-nullsafety.5
   crypto: ^3.0.1
   desktop_webview_auth: ^0.0.2
   firebase_auth: ^3.3.4
