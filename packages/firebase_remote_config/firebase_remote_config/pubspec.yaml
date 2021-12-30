@@ -10,7 +10,7 @@ false_secrets:
   - example/**
 
 environment:
-  sdk: '>=2.12.0-133.0.dev <3.0.0'
+  sdk: '>=2.7.0 <3.0.0'
   flutter: ">=1.12.13+hotfix.5"
 
 dependencies:
@@ -32,14 +32,6 @@ dependencies:
       path: packages/firebase_remote_config/firebase_remote_config_web
   flutter:
     sdk: flutter
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  mockito: ^5.0.0
-  pedantic: ^1.8.0
-  plugin_platform_interface: ^1.0.1
-  test: any
 
 flutter:
   plugin:

@@ -4,7 +4,7 @@ version: 0.1.0+3
 homepage: https://firebase.flutter.dev/docs/performance/overview
 
 environment:
-  sdk: '>=2.12.0-133.0.dev <3.0.0'
+  sdk: '>=2.7.0 <3.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
@@ -14,12 +14,4 @@ dependencies:
       path: packages/firebase_core/firebase_core
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^1.0.1
-
-dev_dependencies:
-  firebase_core_platform_interface:
-    git:
-      url: git@github.com:stanojevicboban/flutterfire.git
-      path: packages/firebase_core/firebase_core_platform_interface
-  flutter_test:
-    sdk: flutter
+  plugin_platform_interface: ^1.0.3
